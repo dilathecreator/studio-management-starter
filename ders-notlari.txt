@@ -1,0 +1,29 @@
+DASHBOARD --> yöneticinin ana sayfasıdır. 
+İlk aşamada salon, üye ve eğitmen sayısını gösterir.
+
+GIT --> Bilgisayarda değişiklik geçmişini tutar. 
+
+GitHub --> Aynı projenin uzakta veya bir serverda barındırılan kopyasını görmemizi sağlar
+* git geçmişine commit almak, bir dosyayı kaydetmek ve GitHub'a push etmek karıştırılmaması gereken 3 ayrı işlemdir.
+
+--- Proje Kurulumuna Başlarken Kontrol Edilmesi Gereken Versiyonların Komutları ---
+* node -v (Node.js)
+* npm -v 
+* git --version
+
+NOT: react-dom paketi; tarayıcıda React'ı çalıştıran pakettir
+NOT: npm run dev komutu; package.json içindeki dev komutunu çalıştırır.
+NOT: vite komutu; bit geliştirme serverı başlatır ve terminalde local adresi (linki) verir.
+genellikle localhost 5173 açar ama port doluysa başka bir port verebilir.
+
+package.json içinde --> paket adları, npm komutları
+package-lock.json içerisinde --> npm'in çözdüğü sürümler bulunur.
+
+node_modules klasörü; npm tarafından tekrar üretilebilir ve git'e gönderilmez.
+.gitignore dosyasını şablonun oluşturduğu biçimde korunur.
+
+-- GitHub'daki proje eski halinde görünüyorsa --
+bu 3 soruya sırasıyla bakılmalı:
+1- Dosya kaydolmuş mu? (cmd+s atmış mıyız?)
+2- Commit oluşturulmuş mu?
+3- Doğru branch'e push edilmiş mi?
